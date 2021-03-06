@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>RecBot.qml</file>
+        <file>But.qml</file>
     </qresource>
 </RCC>

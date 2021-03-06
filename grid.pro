@@ -8,7 +8,8 @@ SOURCES += main.cpp
 RESOURCES += qml.qrc
 
 OTHER_FILES += \
-    RecBot.qml
+    RecBot.qml \
+    But.qml
 
 
 # Additional import path used to resolve QML modules in Qt Creator's code model

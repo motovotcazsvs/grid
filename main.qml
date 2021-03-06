@@ -1,6 +1,7 @@
 import QtQuick 2.5
 import QtQuick.Window 2.2
 import QtQuick.Layouts 1.1
+//import QtQuick 2.7
 
 Window {
     visible: true
@@ -8,46 +9,40 @@ Window {
     height: 600
     title: qsTr("grid view")
 
-    Component.onCompleted: {
-        gridView.model.append({
-        myColor: 'orange'
-        });
-        gridView.model.append({
-        myColor: 'red'
-        });
-        gridView.model.append({
-        myColor: 'blue'
-        });
-    }
+    Row {
+        spacing: 20
+/*
+        RecBot {
+            id: recbot1
 
-    GridView {
-        id: gridView
-
-        anchors {
-            top: parent.top
-            bottom: parent.bottom
-            left: parent.left
-            right: parent.right
-            leftMargin: 20
-            topMargin: 20
         }
 
-        cellWidth: width / 3
-        cellHeight: height / 3
+        RecBot {
+            id: recbot2
 
-        model: ListModel {}
-
-        delegate: Rectangle {
-            width: 50
-            height: 50
-            color: myColor
         }
+
+        RecBot {
+            id: recbot3
+
+        }
+
+        */
+
+        But {
+            id: but1
+        }
+
+        But {
+            id: but2
+        }
+
+        //Rectangle { color: "red"; width: 50; height: 50 }
+        //Rectangle { color: "green"; width: 20; height: 50 }
+        //Rectangle { color: "blue"; width: 50; height: 20 }
     }
 
-    RecBot {
-        id: recbot1
-        anchors.centerIn: parent
-    }
+
 
 
 
