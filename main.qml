@@ -1,11 +1,11 @@
 import QtQuick 2.5
 import QtQuick.Window 2.2
-  import QtQuick.Layouts 1.1
+import QtQuick.Layouts 1.1
 
 Window {
     visible: true
-    width: 640
-    height: 480
+    width: 350
+    height: 600
     title: qsTr("grid view")
 
     Component.onCompleted: {
@@ -42,6 +42,11 @@ Window {
             height: 50
             color: myColor
         }
+    }
+
+    RecBot {
+        id: recbot1
+        anchors.centerIn: parent
     }
 
 
