@@ -14,8 +14,8 @@ Window {
         //columns: 3
 
         rows: 2
-        spacing: 6
-
+        spacing: 50
+        //x: 30
 
 
         RecBot {

@@ -4,8 +4,9 @@ import QtQuick.Layouts 1.1
 
 Rectangle {
     id: roo
-    width: 100
-    height: 100
+    width: 50
+    height: 50
+    border.color: "black"
 
     Column {
         spacing: 5
@@ -19,7 +20,7 @@ Rectangle {
 
         Text {
             id: te
-            text: "vova"
+            text: "vovahghghg"
             anchors.horizontalCenter: rec.horizontalCenter
         }
     }
