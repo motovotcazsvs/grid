@@ -8,47 +8,46 @@ Window {
     height: 600
     title: qsTr("grid view")
 
-    Component.onCompleted: {
-        gridView.model.append({
-        myColor: 'orange'
-        });
-        gridView.model.append({
-        myColor: 'red'
-        });
-        gridView.model.append({
-        myColor: 'blue'
-        });
-    }
+    Grid {
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+        //columns: 3
 
-    GridView {
-        id: gridView
+        rows: 2
+        spacing: 6
 
-        anchors {
-            top: parent.top
-            bottom: parent.bottom
-            left: parent.left
-            right: parent.right
-            leftMargin: 20
-            topMargin: 20
+
+
+        RecBot {
+            id: recbot1
+
         }
 
-        cellWidth: width / 3
-        cellHeight: height / 3
+        RecBot {
+            id: recbot2
 
-        model: ListModel {}
-
-        delegate: Rectangle {
-            width: 50
-            height: 50
-            color: myColor
         }
-    }
 
-    RecBot {
-        id: recbot1
-        anchors.centerIn: parent
-    }
+        RecBot {
+            id: recbot3
 
+        }
+
+        RecBot {
+            id: recbot4
+
+        }
+
+        RecBot {
+            id: recbot5
+
+        }
+
+        RecBot {
+            id: recbot6
+        }
+
+    }
 
 
 }
