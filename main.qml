@@ -11,7 +11,7 @@ Window {
 
     Row {
         anchors.horizontalCenter: parent.horizontalCenter
-        //anchors.verticalCenter: parent.verticalCenter
+        anchors.verticalCenter: parent.verticalCenter
         spacing: 20
 /*
         RecBot {

@@ -5,7 +5,7 @@ import QtQuick 2.7
 Rectangle {
     id: tex
     width: 70
-    height: 100
+    height: 70
     Column {
         spacing: 5
 
@@ -20,7 +20,7 @@ Rectangle {
         Text {
             id: te
             anchors.horizontalCenter: but.horizontalCenter
-            text: "vova"
+            text: "vovaoooo0"
         }
     }
 }
