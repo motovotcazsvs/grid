@@ -10,6 +10,8 @@ Window {
     title: qsTr("grid view")
 
     Row {
+        anchors.horizontalCenter: parent.horizontalCenter
+        //anchors.verticalCenter: parent.verticalCenter
         spacing: 20
 /*
         RecBot {
@@ -26,8 +28,8 @@ Window {
             id: recbot3
 
         }
+*/
 
-        */
 
         But {
             id: but1
@@ -37,9 +39,35 @@ Window {
             id: but2
         }
 
-        //Rectangle { color: "red"; width: 50; height: 50 }
-        //Rectangle { color: "green"; width: 20; height: 50 }
-        //Rectangle { color: "blue"; width: 50; height: 20 }
+        But {
+            id: but3
+        }
+
+        But {
+            id: but4
+        }
+/*
+        But {
+            id: but5
+        }
+
+        But {
+            id: but6
+        }
+
+        But {
+            id: but7
+        }
+
+        But {
+            id: but8
+        }
+
+        But {
+            id: but9
+        }
+*/
+
     }
 
 
