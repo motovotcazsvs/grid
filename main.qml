@@ -14,7 +14,8 @@ Window {
         //columns: 3
 
         rows: 2
-        spacing: 50
+        rowSpacing: 10
+        columnSpacing: 60
         //x: 30
 
 
